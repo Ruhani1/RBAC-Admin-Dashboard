@@ -1,0 +1,97 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.user-management, .role-management {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+}
+
+/* Section Titles */
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table thead th {
+  background-color: #4a90e2;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Buttons */
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+ul li strong {
+  color: #4a90e2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+  }
+}
